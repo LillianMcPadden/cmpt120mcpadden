@@ -1,1 +1,3 @@
 This is a sample file.
+
+This line got added to the code
