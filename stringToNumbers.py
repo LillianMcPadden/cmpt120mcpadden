@@ -4,3 +4,5 @@
 
 def toNumbers(strList):
     return [int(i) for i in strList]
+
+print(toNumbers(['1','2','3']))
