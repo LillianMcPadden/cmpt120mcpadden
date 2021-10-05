@@ -9,7 +9,7 @@ def main():
     print()
     diameter = float(input('Enter the diameter of the pizza: '))
     price = float(input('Enter the price of the pizza: '))
-    cost = math.pi * diameter/2 ** 2 / price
+    cost = price / (math.pi * (diameter/2) ** 2) 
     
     print('The total cost per inch is: $',round(cost,2))
 

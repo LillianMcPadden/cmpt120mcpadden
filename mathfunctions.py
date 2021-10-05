@@ -11,3 +11,10 @@ def sphereVolume(radius):
 def sphereArea(radius):
     surface_area = 4 * math.pi * radius ** 2
     return surface_area
+
+def main():
+    radius = eval(input("Enter the radius of the sphere: "))
+    print("The area of the sphere is: ",sphereArea(radius))
+    print("The volume of the sphere is:",sphereVolume(radius))
+
+main()
