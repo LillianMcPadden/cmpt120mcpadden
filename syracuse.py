@@ -2,6 +2,7 @@
 # This program gets a starting value from the user and then prints the
 # syracuse sequence for that starting value
 
+# JA: You should do this with a loop
 def syracuse(x, list = None):
     if list is None:
         list = []
