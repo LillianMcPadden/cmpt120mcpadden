@@ -34,5 +34,7 @@ def main():
     spot2.setFill('red')
     spot1.draw(intersect)
     spot2.draw(intersect)
+
+    intersect.getMouse()
     
 main()
