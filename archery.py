@@ -20,5 +20,7 @@ def main():
     c3.setFill('blue')
     c4.setFill('red')
     c5.setFill('yellow')
+
+    archery.getMouse()
     
 main()
