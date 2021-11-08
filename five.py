@@ -12,6 +12,7 @@ def roll():
 def main():
     count = 0
     rolls = 0
+    #JA: This runs a single simulation
     while (count == 0):
         dice1 = roll()
         dice2 = roll()
