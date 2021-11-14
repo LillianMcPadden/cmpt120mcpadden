@@ -22,3 +22,4 @@ class Target:
     def getY(self):
         return self.y
     
+    # You should have method that checks if the projectile hits the target

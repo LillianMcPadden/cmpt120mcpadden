@@ -30,4 +30,6 @@ def main():
     # output the distance
     print("\nDistance traveled: {0:0.1f} meters.".format(cball.getX()))
 
+    win.getMouse()
+
 main()

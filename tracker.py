@@ -11,7 +11,7 @@ class Tracker:
         # creates a tracker object and draws a circle in window
         # at the current position of objToTrack
         self.objToTrack = objToTrack
-        self.circ = objToTrack
+        self.circ = objToTrack # This is not a graphical object
         self.circ.draw(window)
         self.x = 0.0
         self.y = 0.0
