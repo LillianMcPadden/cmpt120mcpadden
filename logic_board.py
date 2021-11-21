@@ -85,20 +85,21 @@ def main():
     xor_button.activate()
     nand_button = Button(win, Point(50, 250), 60, 40, "NAND")
     nand_button.activate()
-    p = win.getMouse()
-    if and_button.clicked(p):
-        p1 = win.getMouse()
-        draw_and(p1.getX(), p1.getY(), 60, win)
-    elif or_button.clicked(p):
-        p2 = win.getMouse()
-        draw_or(p2.getX(), p2.getY(), 60, win)
-    elif not_button.clicked(p):
-        p3 = win.getMouse()
-        draw_not(p3.getX(), p3.getY(), 60, win)
-    elif xor_button.clicked(p):
-        p4 = win.getMouse()
-        draw_xor(p4.getX(), p4.getY(), 60, win)
-    elif nand_button.clicked(p):
-        p5 = win.getMouse()
-        draw_nand(p5.getX(), p5.getY(), 60, win)
+    while True:
+        p = win.getMouse()
+        if and_button.clicked(p):
+                p1 = win.getMouse()
+                draw_and(p1.getX(), p1.getY(), 60, win)
+        elif or_button.clicked(p):
+                p2 = win.getMouse()
+                draw_or(p2.getX(), p2.getY(), 60, win)
+        elif not_button.clicked(p):
+                p3 = win.getMouse()
+                draw_not(p3.getX(), p3.getY(), 60, win)
+        elif xor_button.clicked(p):
+                p4 = win.getMouse()
+                draw_xor(p4.getX(), p4.getY(), 60, win)
+        elif nand_button.clicked(p):
+                p5 = win.getMouse()
+                draw_nand(p5.getX(), p5.getY(), 60, win)
 main()

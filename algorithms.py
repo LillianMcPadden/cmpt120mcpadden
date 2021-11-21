@@ -1,7 +1,7 @@
 # algorithms.py
 
 def count(myList, x):
-    return myList.count(x)
+    return myList.count(x) # JA: You were not supposed to use these functions
 
 def isin(myList, x):
     if myList.count(x) > 0:
