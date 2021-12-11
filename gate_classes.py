@@ -18,7 +18,7 @@ class DigitalValue:
         self.win = GraphWin('Logic classes',600,600)
         I = Entry(Point(self.p), 5)
         I2 = Entry(Point(self.p), 5)
-        I.setText('')
+        I.setText('') # JA: This should be the value
         I2.setText('')
         O = Text(Point(500,500),'')
         button = Button(win, Point(400,400), 50, 50, 'run')
@@ -71,6 +71,7 @@ class And:
         Line(Point(x1-10,y3),Point(x1,y3)).draw(win)
         Line(Point(x1-10,y4),Point(x1,y4)).draw(win)
         Line(Point(300+size,300),Point(300+size+10,300)).draw(win)
+        # JA: You should draw the inputs and outputs
 
 class Or:
 
